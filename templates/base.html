@@ -219,7 +219,7 @@
                         <!-- <input type="text" class="form-control bg-dark border-dark" style="padding: 25px;" placeholder="Your Email"> -->
                         {% if request.user.is_authenticated %}
                         <div class="input-group-append">
-                            <button class="btn btn-primary text-uppercase px-3"><a style="color: red;font-weight:bolder;" href="{% url 'logot' %}">Logout</a></button>
+                            <button class="btn btn-primary text-uppercase px-3"><a style="color: red;font-weight:bolder;" href="{% url 'logout' %}">Logout</a></button>
                         </div>
                         {% else %}
                         <div class="input-group-append">
