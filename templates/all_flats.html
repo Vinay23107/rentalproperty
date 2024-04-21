@@ -30,7 +30,7 @@
                     <form method="post" action="{% url 'detail' %}">
                         {% csrf_token %}
                         <input type="hidden" name="pk" value="{{item.pk}}">
-                        <button type="submit" value="submit" class="btn btn-primary px-3">{{item.rent}}</button>
+                        <button type="submit" value="submit" class="btn btn-primary px-3">Book Now</button>
                     </form>
                 </div>
             </div>
