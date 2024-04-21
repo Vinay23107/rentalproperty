@@ -352,7 +352,7 @@ def handle_user_login(request):
         if myuser is not None:
             mylogin(request, myuser)
             # return render(request, 'seller/index.html')
-            return redirect('index')
+            return redirect('home')
         else:
             e='Enter Valid Creditentials'
             return render(request, 'user/404.html', {'e':e}) 
