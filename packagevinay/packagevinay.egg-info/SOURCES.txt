@@ -1,0 +1,7 @@
+setup.py
+packagevinay/__init__.py
+packagevinay.egg-info/PKG-INFO
+packagevinay.egg-info/SOURCES.txt
+packagevinay.egg-info/dependency_links.txt
+packagevinay.egg-info/requires.txt
+packagevinay.egg-info/top_level.txt
